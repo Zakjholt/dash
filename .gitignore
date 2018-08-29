@@ -1,0 +1,4 @@
+node_modules
+dist
+.cace
+.node-persist
