@@ -16,5 +16,8 @@ const renderDashboard = async () => {
   `;
 };
 
+navigator.wakeLock.request('display');
+navigator.wakeLock.request('system');
+
 renderDashboard();
 setInterval(renderDashboard, 1000 * 60 * 5);
